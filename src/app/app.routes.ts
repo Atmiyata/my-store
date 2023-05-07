@@ -1,12 +1,17 @@
 import { Routes } from '@angular/router';
 
 import { ProductsComponent } from './components/products';
+import { HomeComponent } from './components/home';
 
 export const routes: Routes = [
   {
     path: '',
-    redirectTo: 'products',
+    redirectTo: 'home',
     pathMatch: 'full',
+  },
+  {
+    path: 'home',
+    component: HomeComponent,
   },
   {
     path: 'products',
