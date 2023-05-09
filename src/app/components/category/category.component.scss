@@ -1,10 +1,15 @@
 @import "../../../assets/css-config/mixins.scss";
 
 .shop-by-category {
+  border-radius: 8px;
+  background: rgba(173, 169, 169, 0.2);
+  padding: 16px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 10px #00000008,0 0 2px #0000000f,0 2px 6px #0000001f!important;
   margin: 25px 0;
 
   @include md {
-    margin: 50px 0;
+    margin: 45px 0;
   }
 
   .categories {
